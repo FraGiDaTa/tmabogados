@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estudio TM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+
+<!-- =================== ENCABEZADO ==================== -->
+
+
+
+
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Contactanos +51 963575469</p>
+    </header>
+
+    <div>
+        <a class="btn-flotante" href="https://api.whatsapp.com/send?phone=51963575469&text=Hola, Nececito mas informacion!">
+            <img src="img/whatsapp.png" width="220px" height="50px" alt="">
+        </a>
+    </div>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand position-fixed logo" href="index.html"><img src="./img/logo_colegio.jpeg" width="100px" alt=""></a>
+            </div>
+            <div class="justify-content-end barra">
+                <a class="navbar-brand" href="./index.html">INICIO</a>
+                <a class="navbar-brand" href="./nosotros.html">NOSOTROS</a>
+                <a class="navbar-brand" href="./contactanos.html">CONTACTANOS</a>
+                <a class="navbar-brand" href="./areas.html">AREAS</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                  <a class="nav-link" aria-current="page" href="./nosotros.html">NOSOTROS</a>
+                  <a class="nav-link" aria-current="page" href="./contactanos.html">CONTACTANOS</a>
+                </li>
+                <li class="nav-item">
+                  <!-- <a class="nav-link" href="#">Link</a> -->
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    AREAS
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="./penal.html">Penal</a></li>
+                    <li><a class="dropdown-item" href="./civil.html">Civil</a></li>
+                    <li><a class="dropdown-item" href="./laboral.html">Laboral</a></li>
+                    <li>
+                      <!-- <hr class="dropdown-divider"> -->
+                    </li>
+                    <li><a class="dropdown-item" href="#"></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar Especialidad" aria-label="Search">
+                <button class="btn btn-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!-- ========================== IMAGENES CARRUSEL ============================ -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./img/CIVIL.jpg" class="d-block w-100" alt="slide1">
+      </div>
+      <div class="carousel-item"  data-bs-interval="3000">
+        <img src="./img/LABORAL.jpg" class="d-block w-100" alt="slide2">
+      </div>
+      <div class="carousel-item"  data-bs-interval="3000">
+        <img src="./img/PENAL.jpg" class="d-block w-100" alt="slide3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- ================================== INTRO ================================= -->
+
+    <section class="w-75 mx-auto text-center pt-4" id="intro">
+        <h1 class="pt-3 px-2 fs-2 border-top border-4">En <span class="text-primary">Tadeo Mogollon Abogados</span>  </h1>
+        <p class="fs-3">ponemos al servicio de nuestros <span class="text-primary fs-2">Clientes</span> la amplia experiencia de nuestros miembros en la práctica de las diversas áreas del derecho con la más alta calidad a nivel nacional. </p>
+    </section>
+
+
+  <!-- ================================== SERVICIOS ================================= -->
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto my-5 servicio-fila ">
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start my-4 icono-wrap">
+                <figure>
+                    <img src="./img/consulta_general.jpg" alt="consulta" width="180" height="160">
+                    <figcaption>
+
+                    </figcaption>
+                </figure>
+                <div>
+                    <h3 class="fs-5 mt-1 px-4 pb-1">Consulta</h3>
+                    <p class="px-4 text-start">Contestamos a tus dudas de carácter general. </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start my-4 icono-wrap">
+                <figure>
+                    <img src="./img/analisis_de_tu_caso.jpg" alt="consulta" width="180" height="160">
+                    <figcaption>
+                    </figcaption>
+                </figure>
+                <div>
+                    <h3 class="fs-5 mt-1 px-4 pb-1">Análisis</h3>
+                    <p class="px-4 text-start">Análizamos tu caso y te exponemos las mejores soluciones.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-start my-4 icono-wrap">
+                <figure>
+                    <img src="./img/estrategia_de_defensa.jpg" alt="consulta" width="180" height="160">
+                    <figcaption>
+                    </figcaption>
+                </figure>
+                <div>
+                    <h3 class="fs-5 mt-1 px-4 pb-1">Estrategia</h3>
+                    <p class="px-4 text-start">Proponemos las estrategias para defender tu caso. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid bg-dark my-1 py-5">
+        
+    <section class="w-75 mx-auto text-center pt-1" id="intro">
+        <h1 class="px-2 fs-2 text-light">Especialistas en <br>
+            <span class="text-primary" id="typewriter"> </span>  </h1>
+
+    </section>
+        <div class="row mx-auto img_contenido">
+        <img src="./img/derecho penal.png" alt="">
+
+        </div>
+        <div class="w-75 mx-auto text-center pt-1" id="intro">
+            <p class="fs-3 text-light"><span class="text-primary fs-2">Atendemos: </span> Hurto, Robo, Receptación, Apropiacion Ilicita, Estafa, Usurpación, Violencia Familiar, Coacción, Lesiones Leves y Graves, Omisión A La Asistencia Familiar, Accidentes De Transito </p>
+        </div>
+    </section>
+
+
+
+
+
+
+<section>
+    <div id="local text-center">
+        <div class="mapa">
+            <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.047707561686!2d-79.02132288997129!3d-8.096617585504266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d5468303489%3A0xf832de859723d0bd!2sTadeo%20Mogollon%20Abogados!5e0!3m2!1ses!2spe!4v1663133458723!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="wrapper w-100 text-center position-relative">
+            <h2 class="text-primary">Ubicado en Miraflores, Trujillo</h2>
+            <h2 class="text-primary mb-4"></h2>
+            <p class="fs-5 text-body"><span class="text-primary"> Direccion: </span> Calle Juan de Cuellar 1117 Urb. Miraflores - Trujillo</p>
+            <section class="d-flex w-100 justify-content-center" id="numeros-local">
+                <div>
+                    <p class="text-primary">Atención: 365</p>días
+                    <p>Dias</p>
+                </div>
+                <div>
+                    <p class="text-primary">Servicio: 100%</p>
+                    <p>Garantizado</p>
+                </div>
+                <div>
+                    <p class="text-primary"> 24°C</p>
+                    <p>Temperatura</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    </section>
+
+
+  </body>
+
+
+    <!-- ========================= FOOTER=========================== -->
+
+  <footer class="bg-dark my-3">
+
+    <section class="container text-light">
+
+          <div class="offcanvas-body d-flex px-3">
+            <ul class="navbar-nav flex-grow-1 pe-3 col-lg-4 py-2"> 
+                <li class="my-2"><a href="#"><img src="img/facebook.png" alt="" width="30px"></a></li>
+                <li class="my-2"><img src="img/instagram.png" alt="" width="30px"></li>
+                <li class="my-2"><img src="img/tw.png" alt="" width="30px"></li>
+                <li class="my-2"><img src="img/youtube.png" alt="" width="30px"></li>
+            </ul>
+            <ul class="navbar-nav flex-grow-1 pe-3 col-lg-4">
+                <li><a class="nav-link" href="#">Porque usar nuestros servicios?</a></li>
+                <li><a class="nav-link" href="#">Área Penal</a></li>
+                <li><a class="nav-link" href="#">Área Civil</a></li>
+                <li><a class="nav-link" href="#">Área Laboral</a></li>
+                <li><a class="nav-link" href="#">Intranet</a></li>
+            </ul>
+            <ul class="navbar-nav flex-grow-1 pe-3 col-lg-4">
+                    <li class="nav-link"><span class="text-primary">Teléfono:</span> +51 999 999 999</li>
+                    <li class="nav-link"><span class="text-primary">correo:</span> aaaa@tma.com</li>
+            </ul>
+
+        </div>
+    </section>
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="./js/main.js"></script>
+
+
+
+
+</html>
