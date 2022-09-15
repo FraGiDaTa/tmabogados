@@ -1,4 +1,5 @@
 
+
 section div figure{
     position:relative;
 }
@@ -58,7 +59,7 @@ section div figure figcaption{
 @media only screen and (max-width: 1800px){
 
     .carousel-item{
-            max-height: 39rem;
+            max-height: 100%;
     }
     .img_contenido{
         max-width: 75%;
@@ -69,25 +70,80 @@ section div figure figcaption{
 
     }
 
-
+    .carousel .carousel-text {
+        position: absolute;
+        max-width: 700px;
+        height: calc(100vh - 35px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 2;
+    }
+    
+    .carousel .carousel-text h1 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    
+    .carousel .carousel-text p {
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    
+    .carousel .carousel-text .btn {
+        padding: 15px 30px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        background: none;
+        border: 2px solid #ffffff;
+        border-radius: 0;
+        transition: .3s;
+    }
+    
+    .carousel .carousel-text .btn i {
+        margin-right: 5px;
+    }
+    
+    .carousel .carousel-text .btn:hover {
+        color: #0796fe;
+        background: #ffffff;
+    }
 @media only screen and (max-width: 1000px){
 
         .carousel-item{
-                max-height: 25rem;
+                max-height: 100%;
+                position:absolute;
         }
 
         .img_contenido{
             max-width: 75%;
         }
+        
+
     
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 676px){
+
+    #titulo-carousel{
+        font-size:small;
+    }
+    #titulo-carousel2{
+        font-size:small;
+    }
 
     .barra{
     display: none;
     }
 
     .carousel-item{
-    max-height: 12rem;
+    max-height: 100%;
+    position:absolute;
     }
 
     .servicio-fila{
@@ -98,8 +154,15 @@ section div figure figcaption{
         max-width: 100%;
     }
     .logo{
-        max-width: 50%;
+        max-width: 75%;
     }
+
+    footer section div ul.footer_oculto{
+        display:none;
+    } 
+
+
+
 
 
 
@@ -109,10 +172,12 @@ section div figure figcaption{
     .icono-wrap{
         flex-wrap: wrap;
         justify-content: center !important;
-
     }
     .img_contenido{
         max-width: 100%;
+    }
+    #footer_oculto{
+        display:none;
     }
 }
 }

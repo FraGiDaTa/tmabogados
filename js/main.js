@@ -13,5 +13,3 @@ typewriter
 .pauseFor(800)
 .start();
 
-
-
